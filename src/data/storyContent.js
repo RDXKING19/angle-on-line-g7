@@ -1,0 +1,80 @@
+export const STORY_PANELS = [
+  {
+    panel: 1,
+    id: 1,
+    title: "The Case of the Hidden Angle",
+    text: "At the Angle Detective Agency, Amirah and Wei Jie find their first case: a neighborhood fence post where one angle is measured at 132°, but the other angle is hidden behind a crossbeam. How can we find the missing angle without guessing?",
+    highlight: "Detectives don't guess — geometric rules give us the exact missing clue.",
+    character: "Amirah",
+    characterEmoji: "👧",
+    image: "/assets/story/story_1.png",
+    imageBg: "#1e143c",
+    imageEmoji: "🔎",
+    bubble: "Ready to investigate the hidden angles around our neighborhood?"
+  },
+  {
+    panel: 2,
+    id: 2,
+    title: "Reading the Clues",
+    text: "Inspector Tally demonstrates how detectives label angles accurately. In ∠ABC, the rays BA and BC meet at point B, making B the vertex. Acute angles are under 90°, right angles are exactly 90°, obtuse angles are between 90° and 180°, straight angles equal 180°, and reflex angles exceed 180°.",
+    highlight: "In ∠ABC, the middle letter B is always the vertex where rays meet!",
+    character: "Inspector Tally",
+    characterEmoji: "🦉",
+    image: "/assets/story/story_2.png",
+    imageBg: "#180c3c",
+    imageEmoji: "📐",
+    bubble: "Keep your eye on the middle letter — that is where the angle opens!"
+  },
+  {
+    panel: 3,
+    id: 3,
+    title: "The Straight-Line Rule",
+    text: "Look at the straight fence rail! Two adjacent angles resting along a straight line form a straight angle. Because a straight line measures 180°, adjacent angles on a straight line always add up to 180°: 132° + x = 180°, so x = 48°.",
+    highlight: "Adjacent angles on a straight line always add up to 180°.",
+    character: "Wei Jie",
+    characterEmoji: "👦",
+    image: "/assets/story/story_3.png",
+    imageBg: "#201040",
+    imageEmoji: "🛣️",
+    bubble: "180° − 132° = 48°. Case cracked with a single subtraction!"
+  },
+  {
+    panel: 4,
+    id: 4,
+    title: "The Full-Circle Rule",
+    text: "At the base of the plaza lamppost, four paving paths radiate outward in every direction around a common vertex. Because one full rotation around a point makes a complete turn, all angles meeting at a point add up to 360°.",
+    highlight: "Angles meeting around a common point always add up to 360°.",
+    character: "Amirah",
+    characterEmoji: "👧",
+    image: "/assets/story/story_4.png",
+    imageBg: "#160a36",
+    imageEmoji: "🧭",
+    bubble: "Add up the known angles and subtract from 360° to find the missing slice!"
+  },
+  {
+    panel: 5,
+    id: 5,
+    title: "The Mirror Rule",
+    text: "When two straight streets intersect on the case map, they create four angles meeting at a crossroad. The angles directly across from each other are vertically opposite angles, and vertically opposite angles are always equal to each other!",
+    highlight: "When two straight lines cross, vertically opposite angles are equal.",
+    character: "Wei Jie",
+    characterEmoji: "👦",
+    image: "/assets/story/story_5.png",
+    imageBg: "#1f1048",
+    imageEmoji: "🪞",
+    bubble: "Opposite angles mirror each other, and side-by-side angles make 180°!"
+  },
+  {
+    panel: 6,
+    id: 6,
+    title: "Case Closed... For Now",
+    text: "Fantastic detective work! You have mastered the three foundational angle rules: straight line (180°), angles at a point (360°), and vertically opposite angles (equal). But what happens when lines never cross at all...? That's a mystery for another day. Now, enter the lab!",
+    highlight: "With three angle properties in your casebook, no diagram is a mystery!",
+    character: "Inspector Tally",
+    characterEmoji: "🦉",
+    image: "/assets/story/story_6.png",
+    imageBg: "#221150",
+    imageEmoji: "🏆",
+    bubble: "Take your magnifying glass and step into the Detective Lab!"
+  }
+];

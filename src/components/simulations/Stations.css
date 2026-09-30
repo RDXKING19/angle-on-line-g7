@@ -1,0 +1,15 @@
+.station-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.protractor-handle {
+  cursor: grab;
+  transition: transform 0.1s ease;
+}
+
+.protractor-handle:active {
+  cursor: grabbing;
+}
